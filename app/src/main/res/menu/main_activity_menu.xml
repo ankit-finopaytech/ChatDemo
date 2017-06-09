@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="101"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="" />
+
+    <item
+        android:id="@+id/action_group"
+        android:orderInCategory="102"
+        android:title="@string/str_new_group"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_broadcast"
+        android:orderInCategory="103"
+        android:title="@string/str_broadcast"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_web"
+        android:orderInCategory="104"
+        android:title="@string/str_web"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_starred"
+        android:orderInCategory="105"
+        android:title="@string/str_star"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="106"
+        android:title="@string/str_settings"
+        app:showAsAction="never" />
+
+</menu>

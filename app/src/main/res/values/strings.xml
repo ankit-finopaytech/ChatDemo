@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Chat Demo</string>
+    <string name="title_activity_chat_window">Chat</string>
+    <string name="hint_type_msz">Type a message</string>
+
+    <string name="title_activity_fullscreen">Chat Demo</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="str_computer">Computer</string>
+    <string name="str_random_user">User</string>
+    <string name="str_view_contact">View contact</string>
+    <string name="str_media">Media</string>
+    <string name="str_search">Search</string>
+    <string name="str_mute">Mute</string>
+    <string name="str_wallpaper">Wallpaper</string>
+    <string name="str_more">More</string>
+    <string name="str_block">Block</string>
+    <string name="str_clear_chat">Clear chat</string>
+    <string name="str_new_group">New group</string>
+    <string name="str_broadcast">New broadcast</string>
+    <string name="str_web">WhatsApp Web</string>
+    <string name="str_star">Starred messages</string>
+    <string name="str_settings">Settings</string>
+</resources>

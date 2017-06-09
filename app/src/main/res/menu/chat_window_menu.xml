@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_voice_call"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_call"
+        app:showAsAction="always"
+        android:title="" />
+
+    <item
+        android:id="@+id/action_video_call"
+        android:orderInCategory="101"
+        android:icon="@drawable/ic_action_video"
+        app:showAsAction="always"
+        android:title="" />
+
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="102"
+        android:title="@string/str_view_contact"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_media"
+        android:orderInCategory="103"
+        android:title="@string/str_media"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="104"
+        android:title="@string/str_search"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_mute"
+        android:orderInCategory="105"
+        android:title="@string/str_mute"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_wallpaper"
+        android:orderInCategory="106"
+        android:title="@string/str_wallpaper"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_more"
+        android:orderInCategory="107"
+        android:title="@string/str_more"
+        app:showAsAction="never" >
+
+        <menu>
+
+            <item
+                android:id="@+id/action_block"
+                android:orderInCategory="108"
+                android:title="@string/str_block"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_clear_chat"
+                android:orderInCategory="109"
+                android:title="@string/str_clear_chat"
+                app:showAsAction="never" />
+        </menu>
+        </item>
+
+
+</menu>
